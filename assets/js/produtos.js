@@ -14,7 +14,7 @@ var itens = [
         curtida: 0,     
         img: 'assets/img/produtos/produto__6.JPG',
         categoria: 'barbie collector',
-        titulo: 'collector ai que loucura',
+        titulo: 'collector',
         preco: 'R$ 00,00',
         quantidade: 0
     },
@@ -24,7 +24,7 @@ var itens = [
         curtida: 0,
         img: 'assets/img/produtos/produto__7.JPG',
         categoria: 'barbie playline',
-        titulo: 'aiii que badalo',
+        titulo: 'barbie exemplo',
         preco: 'R$ 00,00',
         quantidade: 0
     },
@@ -33,7 +33,7 @@ var itens = [
         curtida: 0,
         img: 'assets/img/produtos/produto__8.JPG',
         categoria: 'barbie collector',
-        titulo: 'collector ai que loucura',
+        titulo: 'collector',
         preco: 'R$ 00,00',
         quantidade: 0
     },
@@ -43,7 +43,7 @@ var itens = [
         curtida: 0,
         img: 'assets/img/produtos/produto__6.JPG',
         categoria: 'barbie collector',
-        titulo: 'collector ai que loucura',
+        titulo: 'collector',
         preco: 'R$ 00,00',
         quantidade: 0
     },
@@ -53,7 +53,7 @@ var itens = [
         curtida: 0,
         img: 'assets/img/produtos/produto__7.JPG',
         categoria: 'barbie playline',
-        titulo: 'aiii que badalo',
+        titulo: 'barbie exemplo',
         preco: 'R$ 00,00',
         quantidade: 0
     },
@@ -62,7 +62,7 @@ var itens = [
         curtida: 0,
         img: 'assets/img/produtos/produto__8.JPG',
         categoria: 'barbie collector',
-        titulo: 'collector ai que loucura',
+        titulo: 'collector',
         preco: 'R$ 00,00',
         quantidade: 0
     },
@@ -72,7 +72,7 @@ var itens = [
         curtida: 0,
         img: 'assets/img/produtos/produto__6.JPG',
         categoria: 'barbie collector',
-        titulo: 'collector ai que loucura',
+        titulo: 'collector',
         preco: 'R$ 00,00',
         quantidade: 0
     },
@@ -82,7 +82,7 @@ var itens = [
         curtida: 0,
         img: 'assets/img/produtos/produto__7.JPG',
         categoria: 'barbie playline',
-        titulo: 'aiii que badalo',
+        titulo: 'barbie exemplo',
         preco: 'R$ 00,00',
         quantidade: 0
     },
@@ -91,7 +91,7 @@ var itens = [
         curtida: 0,
         img: 'assets/img/produtos/produto__8.JPG',
         categoria: 'barbie collector',
-        titulo: 'collector ai que loucura',
+        titulo: 'collector',
         preco: 'R$ 00,00',
         quantidade: 0
     },
@@ -101,7 +101,7 @@ var itens = [
         curtida: 0,
         img: 'assets/img/produtos/produto__6.JPG',
         categoria: 'barbie collector',
-        titulo: 'collector ai que loucura',
+        titulo: 'collector',
         preco: 'R$ 00,00',
         quantidade: 0
     }
