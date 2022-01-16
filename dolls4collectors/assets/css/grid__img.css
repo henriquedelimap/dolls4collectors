@@ -1,0 +1,42 @@
+.grid__img{
+    display: grid;
+    grid-template: auto 1fr / 1fr 1fr;
+    grid-template-areas: 
+    "img1 vazio1"
+    "vazio2 img2";
+
+    margin-top: 64px;
+    margin-bottom: 3em;
+}
+
+.grid__img__padrao{
+    width: 50vw;
+    height: auto;
+    border-radius: 12px;
+    margin-right: .5em;
+    margin-bottom: .5em;
+
+    
+}
+.grid__img__1{
+    grid-area: img1;
+
+
+}
+
+.grid__img__2{
+    grid-area: img2;
+
+}
+
+.grid__img__vazio1{
+    grid-area: vazio1;
+    background-color: var(--cinza-claro);
+    
+}
+.grid__img__vazio2{
+    grid-area: vazio2;
+    background-color: var(--cinza-claro-2);
+
+}
+

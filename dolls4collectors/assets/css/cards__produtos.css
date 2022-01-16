@@ -1,0 +1,125 @@
+.cards__produtos{
+    display: grid;
+
+    grid-template-rows: 128px 1fr;
+    grid-template-columns: repeat(4, 1fr);    
+
+    gap: 8px;
+}
+
+.card__produto{
+    justify-content: space-around;
+}
+.card__produto:nth-child(2){
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+.card__produto:nth-child(3){
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.card__produto:nth-child(4){
+    grid-column: 3/3;
+    grid-row: 2/2;
+}
+.card__produto:nth-child(5){
+    grid-column: 4/4;
+    grid-row: 2/2;
+}
+
+
+.card__produto{
+    max-width: 350px;
+    min-width: 250px;
+
+    background-color: var(--cinza-claro-2);
+    margin-bottom: 32px;
+
+    display: grid;
+    grid-template-rows: 2fr 30px auto;
+    gap: 16px;
+
+}
+
+.card__produto__imagem img{
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    grid-row: 1;
+
+}
+
+
+.menu__produtos{
+    display: grid;
+    grid-auto-flow: column;
+    
+    justify-content: space-between ;
+
+    grid-row: 2;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: -8px;
+}
+
+
+
+.botao__curtida--produto{
+    grid-column: 1;
+    margin-top: 4px;
+    cursor: pointer;
+
+}
+.card__produto__rolagem{
+    grid-column: 2;
+    width: 30px;
+    height: 30px;
+    display: flex;
+
+    align-items: center;
+
+    margin-top: -8px;
+    cursor: pointer;
+    
+}
+
+.card__produto__rolagem:nth-child(1) img,
+.card__produto__rolagem:nth-child(2) img,
+.card__produto__rolagem:nth-child(3) img,
+.card__produto__rolagem:nth-child(4) img{
+    width: 40%;
+}
+.botao__comprar__produto{
+    grid-column: 3;
+    margin-top: -.4em;
+    cursor: pointer;
+
+}
+
+
+.card__produto__texto{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--cinza-claro-2);
+
+    font-family: var(--fonte);
+    margin-left: 16px;
+    grid-row: 3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+.on{
+    background-image: url(/assets/img/coracao--on.svg);
+    background-size: 90%;
+    background-position-y: 7px;
+    background-position-x: 1px ;
+    background-repeat: no-repeat;
+}
