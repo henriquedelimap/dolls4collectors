@@ -1,0 +1,42 @@
+:root{
+    --cinza-escuro: #333333;
+    --cinza-escuro-2: #33333310;
+    --cinza-escuro-3: #33333390;
+    --cinza-escuro-4: #33333350;
+
+    --cinza-claro: #f5f5f7;
+    --cinza-claro-2: #f9f9f9;
+    --cinza-claro-3: #a1a1a19f;
+
+
+    --texto: #1d1d1faa;
+
+    --verde-online: #6eda2b;
+
+    --verde-sistema: #2cc93f;
+    --amarelo-sistema: #ffbd2b;
+    --vermelho-sistema: #ff5f55;
+
+    --vermelho-sistema-2: #f85246;
+
+
+
+    --branco: #ffffff;
+    --cyan-10: #E5F6FF;
+    --cyan-20: #bae6ff;
+    --azul: #B7CEE4;
+    --azul-2: #42a1ec;
+    --azul-3: #07c;
+
+    --rosa: #d5485d;
+    --rosa-queimado: #e1775380;
+    --marrom: #33231a;
+
+    --vermelho-importante: #B00020;
+    --vermelho-10: #fff1f1;
+
+    --gradiente: #e17753, #ddae8c, #dfb657, #fde6b1;
+
+
+    --fonte: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+}

@@ -1,0 +1,64 @@
+
+.cards__favoritos{
+    position: relative;
+    width: 100vw;
+}
+
+.cards__favoritos .botao__curtida__produto input[type="checkbox"]{
+    position: absolute;
+    top: 2px;
+    left: 16px;
+    transform: scale(1.4);
+}
+
+.cards__favoritos h2{
+    position: absolute;
+    
+}
+
+.cf1{
+    position: absolute;
+    left: 83%;
+    
+}
+.cf2{
+    position: absolute;
+    left: 65%;
+
+}
+.cf3{
+    position: absolute;
+    left: 47%;
+
+}
+.cf4{
+    position: absolute;
+    left: 29%;
+}
+
+.cards__favoritos__destaque {
+    height: 185px;
+    width: 245px;
+
+    gap: 16px;
+    margin-top: 6em;
+    overflow: hidden;
+
+}
+
+
+.cards__favoritos__foto{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    border-radius: 16px;
+    width: 100%;
+    margin-left: 24px;
+
+    border-top-left-radius: 35%;
+
+}
+
+
+

@@ -1,0 +1,24 @@
+
+
+.grid__img__padrao{
+    width: 45vw;
+    height: auto;
+    border-radius: 12px;
+    margin-right: .5em;
+    margin-bottom: .5em;
+
+    
+}
+
+.grid__img__vazio1{
+    grid-area: vazio1;
+
+    
+}
+.grid__img__vazio2{
+    grid-area: vazio2;
+    background-color: var(--cinza-claro-2);
+
+}
+
+

@@ -1,0 +1,117 @@
+.container__cadastro{
+    display: grid;
+    grid-template-rows: 24vh auto auto;
+
+    font-family: var(--fonte);
+    color: var(--texto);
+
+}
+.cadastro__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 128px;
+    
+}
+
+
+.form__fieldset{
+    position: relative;
+    width: 30vw;
+    height: 50px;
+    overflow: hidden;
+    margin: 64px 0;
+
+}
+
+.form__fieldset input{
+    width: 100%;
+    height: 100%;
+    color: var(--cinza-escuro);
+    border: none;
+    padding-top: 20px;
+    outline: none;
+
+}
+
+.form__label{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid var(--cinza-escuro);
+}
+
+.form__label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid var(--azul-2);
+    transform: translateX(-100%);
+    transition: transform .3s ease;
+}
+
+.form__span{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.form__fieldset input:focus + .form__label .form__span,
+.form__fieldset input:not(:placeholder-shown) + .form__label .form__span {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: var(--azul-3);
+}
+
+.form__fieldset input:focus + .form__label::after, .form__fieldset input:not(:placeholder-shown) + .form__label::after{
+    transform: translateX(0%);
+}
+
+
+
+.btSecundario{
+    position: relative;
+}
+
+.botao__input__checkbox{
+    display: flex;
+    position: absolute;
+    top: -8px;
+    
+}
+
+
+.recuperar__senha{
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%);
+    top: -32px;
+    width: max-content;
+
+    
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: overline  1px var(--cinza-escuro);
+} 
+
+.recuperar__senha:hover{
+    text-decoration: overline double 1px var(--azul-2);
+    color: var(--azul-2);
+    margin-top: 1px;
+}
+
+.recuperar__senha:active{
+    text-decoration: overline 1px var(--azul-2);
+    margin-top: -1px;
+}
+
+
+

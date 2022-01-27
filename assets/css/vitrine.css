@@ -1,0 +1,41 @@
+
+.effect-appear{
+    opacity: 0;
+    transform: translateY(80px);
+    transition: .5s all ease-in-out;
+}
+.effect-appear-on{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.texto-efeito{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 0 32px;
+    font-family: var(--fonte);
+}
+
+.texto-efeito h2{
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.texto-efeito p{
+    font-size: 19px;
+    line-height: 1.4em;
+    letter-spacing: .05em;
+    font-weight: 200;
+}
+
+.main__vitrine{
+    position: absolute;
+    top: 64vh;
+    z-index: -1;
+}

@@ -1,0 +1,22 @@
+.container__cadastro{
+    display: grid;
+    grid-template-rows: 24vh auto auto;
+
+    font-family: var(--fonte);
+    color: var(--cinza-escuro);
+
+}
+
+.nome__sobrenome{
+    display: flex;
+    justify-content: center;
+}
+
+.nome__sobrenome input{
+    width: 50%;
+}
+
+.nome__sobrenome input:nth-child(2){
+    
+    margin-right: 8px;
+}
